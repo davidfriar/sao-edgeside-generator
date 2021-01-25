@@ -1,0 +1,25 @@
+{
+  "name": "sao-edgeside-generator",
+  "version": "0.0.0",
+  "description": "Generates a Cloudflare worker using the EdgeSide package",
+  "repository": {
+    "url": "davidfriar/sao-edgeside-generator",
+    "type": "git"
+  },
+  "author": "davidfriar <david.friar@gmail.com> ()",
+  "license": "MIT",
+  "files": [
+    "saofile.js",
+    "template"
+  ],
+  "scripts": {
+    "test": "ava"
+  },
+  "dependencies": {
+    "superb": "^1.3.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "sao": "^1.0.0"
+  }
+}

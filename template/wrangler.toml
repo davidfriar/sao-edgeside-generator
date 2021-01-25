@@ -1,0 +1,15 @@
+name = "<%= name %>"
+type = "webpack"
+account_id = "<%= cf_account %>"
+workers_dev = <%= workers_dev %>
+<% if(domain) { %>route = "<%= domain %>/*" <% } %>
+<% if(zone_id) { %>zone_id = "<%= zone_id %>" <% } %>
+webpack_config = "webpack.config.js"
+
+[vars]
+ORIGIN_HOST = "<%= origin_host %>"
+<% if(path_prefix) { %>ORIGIN_PATH_PREFIX = "<%= path_prefix %>" <% } %>
+ORIGIN_PROTOCOL = "https:"
+ORIGIN_CACHE_TTL = 60
+ORIGIN_CACHE_EVERYTHING = true
+DEBUG=true
