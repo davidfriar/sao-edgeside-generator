@@ -1,6 +1,6 @@
 {
   "name": "sao-edgeside-generator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generates a Cloudflare worker using the EdgeSide package",
   "repository": {
     "url": "davidfriar/sao-edgeside-generator",
